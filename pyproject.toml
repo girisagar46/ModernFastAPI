@@ -9,6 +9,9 @@ python = "^3.9"
 fastapi = "0.70.0"
 uvicorn = "^0.15.0"
 pydantic = "^1.8.2"
+httpx = "^0.20.0"
+Jinja2 = "^3.0.2"
+aiofiles = "^0.7.0"
 
 [tool.poetry.dev-dependencies]
 
