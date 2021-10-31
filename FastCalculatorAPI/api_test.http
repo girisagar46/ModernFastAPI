@@ -1,0 +1,14 @@
+### Index HTML page
+GET http://0.0.0.0:8000/
+
+###
+GET http://0.0.0.0:8000/api/calculate?x=1&y=2&z=3
+Accept: application/json
+
+###
+GET http://0.0.0.0:8000/api/calculate?x=1&y=2
+Accept: application/json
+
+###
+GET http://0.0.0.0:8000/api/calculate?x=1&y=2&z=0
+Accept: application/json
