@@ -12,6 +12,7 @@ pydantic = "^1.8.2"
 httpx = "^0.20.0"
 Jinja2 = "^3.0.2"
 aiofiles = "^0.7.0"
+python-decouple = "^3.5"
 
 [tool.poetry.dev-dependencies]
 
