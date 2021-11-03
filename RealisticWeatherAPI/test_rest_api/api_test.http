@@ -1,0 +1,17 @@
+GET http://127.0.0.1:8000/api/reports
+Accept: application/json
+
+### Report a weather event
+POST http://127.0.0.1:8000/api/reports
+Content-Type: application/json
+
+{
+  "description": "A light rainfall near Tokyo",
+  "location": {
+    "city": "Tokyo"
+  }
+}
+
+### GET report
+GET http://127.0.0.1:8000/api/reports
+Accept: application/json
